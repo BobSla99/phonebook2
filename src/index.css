@@ -1,0 +1,43 @@
+h1 {
+  color: green;
+}
+
+.note {
+  color: grey;
+  padding-top: 15px;
+  font-size: 15px;
+
+  &li {
+    list-style: lower-alpha;
+  }
+}
+
+button {
+  min-width: 30px;
+  font-size: 0.4rem;
+  width: 40px;
+  padding: 3px;
+  margin: 3px;
+  background-color: rgb(39, 60, 223);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  border: solid rgb(197, 1, 1) 5px;
+  border-radius: 18px;
+}
+
+.info {
+  background-color: rgb(33, 187, 33);
+  color: rgb(21, 2, 2);
+  text-align: center;
+  font-size: 25px;
+  border: solid rgb(57, 197, 1) 5px;
+  border-radius: 18px;
+}
