@@ -7,10 +7,12 @@ h1 {
   padding-top: 15px;
   font-size: 15px;
 
-  &li {
+ 
+}
+
+ li {
     list-style: lower-alpha;
   }
-}
 
 button {
   min-width: 30px;
